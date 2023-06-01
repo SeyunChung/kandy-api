@@ -117,31 +117,26 @@
     "locations": [
         {
             "id": 1,
-            "name": "Kandy Korner",
             "address": "70232 Witting Brooks",
             "squareFootage": 2222
         },
         {
             "id": 2,
-            "name": "Sweet Haven",
             "address": "928 Randall Spurs",
             "squareFootage": 2333
         },
         {
             "id": 3,
-            "name": "Sugarland Delights",
             "address": "27579 Norbert Centers",
             "squareFootage": 2444
         },
         {
             "id": 4,
-            "name": "Candy Kingdom",
             "address": "5152 Garrison Circle",
             "squareFootage": 2555
         },
         {
             "id": 5,
-            "name": "Candylicious Corner",
             "address": "17654 Toni Plains",
             "squareFootage": 2666
         }
@@ -149,57 +144,57 @@
     "products": [
         {
             "id": 1,
-            "productName": "Rainbow Swirl Lollipops",
-            "productTypeId": 7,
-            "pricePerUnit": 1.99
+            "name": "Rainbow Swirl Lollipops",
+            "typeId": 7,
+            "price": 1.99
         },
         {
             "id": 2,
-            "productName": "Gummy Bear Medley",
-            "productTypeId": 2,
-            "pricePerUnit": 2.49
+            "name": "Gummy Bear Medley",
+            "typeId": 2,
+            "price": 2.49
         },
         {
             "id": 3,
-            "productName": "Cotton Candy Tubs",
-            "productTypeId": 4,
-            "pricePerUnit": 4.99
+            "name": "Cotton Candy Tubs",
+            "typeId": 4,
+            "price": 4.99
         },
         {
             "id": 4,
-            "productName": "Sour Patch Kids",
-            "productTypeId": 3,
-            "pricePerUnit": 1.49
+            "name": "Sour Patch Kids",
+            "typeId": 3,
+            "price": 1.49
         },
         {
             "id": 5,
-            "productName": "Jelly Belly Bean Boozled",
-            "productTypeId": 5,
-            "pricePerUnit": 3.99
+            "name": "Jelly Belly Bean Boozled",
+            "typeId": 5,
+            "price": 3.99
         },
         {
             "id": 6,
-            "productName": "Caramel Sea Salt Truffles",
-            "productTypeId": 6,
-            "pricePerUnit": 2.99
+            "name": "Caramel Sea Salt Truffles",
+            "typeId": 6,
+            "price": 2.99
         },
         {
             "id": 7,
-            "productName": "Bubblegum Bubble Bombs",
-            "productTypeId": 7,
-            "pricePerUnit": 0.99
+            "name": "Bubblegum Bubble Bombs",
+            "typeId": 7,
+            "price": 0.99
         },
         {
             "id": 8,
-            "productName": "Assorted Licorice Twists",
-            "productTypeId": 1,
-            "pricePerUnit": 2.99
+            "name": "Assorted Licorice Twists",
+            "typeId": 1,
+            "price": 2.99
         },
         {
             "id": 9,
-            "productName": "Marshmallow Popcorn Crunch",
-            "productTypeId": 8,
-            "pricePerUnit": 4.99
+            "name": "Marshmallow Popcorn Crunch",
+            "typeId": 8,
+            "price": 4.99
         }
     ],
     "productTypes": [
