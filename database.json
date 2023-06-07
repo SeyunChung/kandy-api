@@ -201,66 +201,6 @@
       "typeId": 4,
       "price": 15,
       "id": 10
-    },
-    {
-      "name": "keke gummy",
-      "typeId": 2,
-      "price": 40,
-      "id": 11
-    },
-    {
-      "name": "okie dokie kandy yo",
-      "typeId": 7,
-      "price": 50,
-      "id": 12
-    },
-    {
-      "name": "gsdfgdfgfdg",
-      "typeId": 7,
-      "price": 435234543,
-      "id": 13
-    },
-    {
-      "name": "gsdfgdfgdfggfdsgdfggfpopcorn",
-      "typeId": 6,
-      "price": 432535235455453400000,
-      "id": 14
-    },
-    {
-      "name": "now popcorn !",
-      "typeId": 8,
-      "price": 44,
-      "id": 15
-    },
-    {
-      "name": "54325tgregvfsdgfdg",
-      "typeId": 0,
-      "price": 0.5,
-      "id": 16
-    },
-    {
-      "name": "453wt6435t j4erkfhrdfg2345896yt i8",
-      "typeId": 3,
-      "price": 45643.4564563435,
-      "id": 17
-    },
-    {
-      "id": 18,
-      "name": "angel candy pop ice cream hell",
-      "typeId": 7,
-      "price": 4531.45
-    },
-    {
-      "id": 19,
-      "name": "all candy",
-      "typeId": 3,
-      "price": 34231434234
-    },
-    {
-      "id": 20,
-      "name": "mimi is the best friend",
-      "typeId": 4,
-      "price": 45574863.16515864
     }
   ],
   "types": [
