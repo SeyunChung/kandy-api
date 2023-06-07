@@ -1,267 +1,372 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "fullName": "Mildred Ziemann",
-            "email": "Neoma_Schimmel39@gmail.com",
-            "isStaff": false
-        },
-        {
-            "id": 2,
-            "fullName": "Milton Heller",
-            "email": "Chaz6@yahoo.com",
-            "isStaff": false
-        },
-        {
-            "id": 3,
-            "fullName": "Tricia Erdman",
-            "email": "Marcellus.Collier77@gmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 4,
-            "fullName": "Rex Sporer",
-            "email": "Alaina1@yahoo.com",
-            "isStaff": true
-        },
-        {
-            "id": 5,
-            "fullName": "Herbert Hamill",
-            "email": "Makenzie.Ledner@gmail.com",
-            "isStaff": false
-        },
-        {
-            "id": 6,
-            "fullName": "Roosevelt Turner",
-            "email": "Lola.Doyle19@hotmail.com",
-            "isStaff": true
-        },
-        {
-            "id": 7,
-            "fullName": "Johanna Feil",
-            "email": "Toy.Cremin32@example.net",
-            "isStaff": false
-        },
-        {
-            "id": 8,
-            "fullName": "Christie Harris",
-            "email": "Vicente28@example.net",
-            "isStaff": true
-        },
-        {
-            "id": 9,
-            "fullName": "Shaun Bartoletti",
-            "email": "Alexane24@example.org",
-            "isStaff": true
-        }
-    ],
-    "customers": [
-        {
-            "id": 1,
-            "userId": 2,
-            "loyaltyNumber": 39301
-        },
-        {
-            "id": 2,
-            "userId": 5,
-            "loyaltyNumber": 77103
-        },
-        {
-            "id": 3,
-            "userId": 1,
-            "loyaltyNumber": 23839
-        },
-        {
-            "id": 4,
-            "userId": 7,
-            "loyaltyNumber": 57839
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "userId": 3,
-            "startDate": "Wed Nov 02 2022",
-            "payRate": 18.64,
-            "locationId": 2
-        },
-        {
-            "id": 2,
-            "userId": 4,
-            "startDate": "Mon Mar 06 2023",
-            "payRate": 29.34,
-            "locationId": 1
-        },
-        {
-            "id": 3,
-            "userId": 6,
-            "startDate": "Tue Oct 04 2022",
-            "payRate": 34.92,
-            "locationId": 4
-        },
-        {
-            "id": 4,
-            "userId": 8,
-            "startDate": "Sat Jan 14 2023",
-            "payRate": 15.99,
-            "locationId": 5
-        },
-        {
-            "id": 5,
-            "userId": 9,
-            "startDate": "Sat Sep 17 2022",
-            "payRate": 25.47,
-            "locationId": 3
-        }
-    ],
-    "locations": [
-        {
-            "id": 1,
-            "address": "70232 Witting Brooks",
-            "squareFootage": 2222
-        },
-        {
-            "id": 2,
-            "address": "928 Randall Spurs",
-            "squareFootage": 2333
-        },
-        {
-            "id": 3,
-            "address": "27579 Norbert Centers",
-            "squareFootage": 2444
-        },
-        {
-            "id": 4,
-            "address": "5152 Garrison Circle",
-            "squareFootage": 2555
-        },
-        {
-            "id": 5,
-            "address": "17654 Toni Plains",
-            "squareFootage": 2666
-        }
-    ],
-    "products": [
-        {
-            "id": 1,
-            "name": "Rainbow Swirl Lollipops",
-            "typeId": 7,
-            "price": 1.99
-        },
-        {
-            "id": 2,
-            "name": "Gummy Bear Medley",
-            "typeId": 2,
-            "price": 2.49
-        },
-        {
-            "id": 3,
-            "name": "Cotton Candy Tubs",
-            "typeId": 4,
-            "price": 4.99
-        },
-        {
-            "id": 4,
-            "name": "Sour Patch Kids",
-            "typeId": 3,
-            "price": 1.49
-        },
-        {
-            "id": 5,
-            "name": "Jelly Belly Bean Boozled",
-            "typeId": 5,
-            "price": 3.99
-        },
-        {
-            "id": 6,
-            "name": "Caramel Sea Salt Truffles",
-            "typeId": 6,
-            "price": 2.99
-        },
-        {
-            "id": 7,
-            "name": "Bubblegum Bubble Bombs",
-            "typeId": 7,
-            "price": 0.99
-        },
-        {
-            "id": 8,
-            "name": "Assorted Licorice Twists",
-            "typeId": 1,
-            "price": 2.99
-        },
-        {
-            "id": 9,
-            "name": "Marshmallow Popcorn Crunch",
-            "typeId": 8,
-            "price": 4.99
-        }
-    ],
-    "productTypes": [
-        {
-            "id": 1,
-            "category": "licorice"
-        },
-        {
-            "id": 2,
-            "category": "gummy"
-        },
-        {
-            "id": 3,
-            "category": "chewy candy"
-        },
-        {
-            "id": 4,
-            "category": "fluffy"
-        },
-        {
-            "id": 5,
-            "category": "jelly bean"
-        },
-        {
-            "id": 6,
-            "category": "chocolate"
-        },
-        {
-            "id": 7,
-            "category": "hard candy"
-        },
-        {
-            "id": 8,
-            "category": "popcorn"
-        }
-    ],
-    "purchases":[],
-    "locationInventories": [
-        {
-            "id": 1,
-            "locationId": 1,
-            "productId": [1, 2, 3, 4, 5, 6, 7, 8, 9],
-            "inventoryQuantity": 15647
-        },
-        {
-            "id": 2,
-            "locationId": 2,
-            "productId": [1, 3, 4, 6, 8, 9],
-            "inventoryQuantity": 8549
-        },
-        {
-            "id": 3,
-            "locationId": 3,
-            "productId": [2, 4, 5, 7, 9],
-            "inventoryQuantity": 2489
-        },
-        {
-            "id": 4,
-            "locationId": 4,
-            "productId": [4, 5, 6, 7, 8],
-            "inventoryQuantity": 3673
-        },
-        {
-            "id": 5,
-            "locationId": 5,
-            "productId": [1, 2, 3, 4, 5, 6, 7, 8, 9],
-            "inventoryQuantity": 4444444
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Mildred Ziemann",
+      "email": "Neoma_Schimmel39@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Milton Heller",
+      "email": "Chaz6@yahoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 3,
+      "fullName": "Tricia Erdman",
+      "email": "Marcellus.Collier77@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "fullName": "Rex Sporer",
+      "email": "Alaina1@yahoo.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "fullName": "Herbert Hamill",
+      "email": "Makenzie.Ledner@gmail.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "fullName": "Roosevelt Turner",
+      "email": "Lola.Doyle19@hotmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 7,
+      "fullName": "Johanna Feil",
+      "email": "Toy.Cremin32@example.net",
+      "isStaff": false
+    },
+    {
+      "id": 8,
+      "fullName": "Christie Harris",
+      "email": "Vicente28@example.net",
+      "isStaff": true
+    },
+    {
+      "id": 9,
+      "fullName": "Shaun Bartoletti",
+      "email": "Alexane24@example.org",
+      "isStaff": true
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "userId": 2,
+      "loyaltyNumber": 39301
+    },
+    {
+      "id": 2,
+      "userId": 5,
+      "loyaltyNumber": 77103
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "loyaltyNumber": 23839
+    },
+    {
+      "id": 4,
+      "userId": 7,
+      "loyaltyNumber": 57839
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "userId": 3,
+      "startDate": "Wed Nov 02 2022",
+      "payRate": 18.64,
+      "locationId": 2
+    },
+    {
+      "id": 2,
+      "userId": 4,
+      "startDate": "Mon Mar 06 2023",
+      "payRate": 29.34,
+      "locationId": 1
+    },
+    {
+      "id": 3,
+      "userId": 6,
+      "startDate": "Tue Oct 04 2022",
+      "payRate": 34.92,
+      "locationId": 4
+    },
+    {
+      "id": 4,
+      "userId": 8,
+      "startDate": "Sat Jan 14 2023",
+      "payRate": 15.99,
+      "locationId": 5
+    },
+    {
+      "id": 5,
+      "userId": 9,
+      "startDate": "Sat Sep 17 2022",
+      "payRate": 25.47,
+      "locationId": 3
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "70232 Witting Brooks",
+      "squareFootage": 2222
+    },
+    {
+      "id": 2,
+      "address": "928 Randall Spurs",
+      "squareFootage": 2333
+    },
+    {
+      "id": 3,
+      "address": "27579 Norbert Centers",
+      "squareFootage": 2444
+    },
+    {
+      "id": 4,
+      "address": "5152 Garrison Circle",
+      "squareFootage": 2555
+    },
+    {
+      "id": 5,
+      "address": "17654 Toni Plains",
+      "squareFootage": 2666
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Rainbow Swirl Lollipops",
+      "typeId": 7,
+      "price": 1.99
+    },
+    {
+      "id": 2,
+      "name": "Gummy Bear Medley",
+      "typeId": 2,
+      "price": 2.49
+    },
+    {
+      "id": 3,
+      "name": "Cotton Candy Tubs",
+      "typeId": 4,
+      "price": 4.99
+    },
+    {
+      "id": 4,
+      "name": "Sour Patch Kids",
+      "typeId": 3,
+      "price": 1.49
+    },
+    {
+      "id": 5,
+      "name": "Jelly Belly Bean Boozled",
+      "typeId": 5,
+      "price": 3.99
+    },
+    {
+      "id": 6,
+      "name": "Caramel Sea Salt Truffles",
+      "typeId": 6,
+      "price": 2.99
+    },
+    {
+      "id": 7,
+      "name": "Bubblegum Bubble Bombs",
+      "typeId": 7,
+      "price": 0.99
+    },
+    {
+      "id": 8,
+      "name": "Assorted Licorice Twists",
+      "typeId": 1,
+      "price": 2.99
+    },
+    {
+      "id": 9,
+      "name": "Marshmallow Popcorn Crunch",
+      "typeId": 8,
+      "price": 4.99
+    },
+    {
+      "name": "Starbucks Coffee Candy",
+      "typeId": 4,
+      "price": 15,
+      "id": 10
+    },
+    {
+      "name": "keke gummy",
+      "typeId": 2,
+      "price": 40,
+      "id": 11
+    },
+    {
+      "name": "okie dokie kandy yo",
+      "typeId": 7,
+      "price": 50,
+      "id": 12
+    },
+    {
+      "name": "gsdfgdfgfdg",
+      "typeId": 7,
+      "price": 435234543,
+      "id": 13
+    },
+    {
+      "name": "gsdfgdfgdfggfdsgdfggfpopcorn",
+      "typeId": 6,
+      "price": 432535235455453400000,
+      "id": 14
+    },
+    {
+      "name": "now popcorn !",
+      "typeId": 8,
+      "price": 44,
+      "id": 15
+    },
+    {
+      "name": "54325tgregvfsdgfdg",
+      "typeId": 0,
+      "price": 0.5,
+      "id": 16
+    },
+    {
+      "name": "453wt6435t j4erkfhrdfg2345896yt i8",
+      "typeId": 3,
+      "price": 45643.4564563435,
+      "id": 17
+    },
+    {
+      "id": 18,
+      "name": "angel candy pop ice cream hell",
+      "typeId": 7,
+      "price": 4531.45
+    },
+    {
+      "id": 19,
+      "name": "all candy",
+      "typeId": 3,
+      "price": 34231434234
+    },
+    {
+      "id": 20,
+      "name": "mimi is the best friend",
+      "typeId": 4,
+      "price": 45574863.16515864
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "type": "licorice"
+    },
+    {
+      "id": 2,
+      "type": "gummy"
+    },
+    {
+      "id": 3,
+      "type": "chewy candy"
+    },
+    {
+      "id": 4,
+      "type": "fluffy"
+    },
+    {
+      "id": 5,
+      "type": "jelly bean"
+    },
+    {
+      "id": 6,
+      "type": "chocolate"
+    },
+    {
+      "id": 7,
+      "type": "hard candy"
+    },
+    {
+      "id": 8,
+      "type": "popcorn"
+    }
+  ],
+  "purchases": [],
+  "locationInventories": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "productId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "inventoryQuantity": 15647
+    },
+    {
+      "id": 2,
+      "locationId": 2,
+      "productId": [
+        1,
+        3,
+        4,
+        6,
+        8,
+        9
+      ],
+      "inventoryQuantity": 8549
+    },
+    {
+      "id": 3,
+      "locationId": 3,
+      "productId": [
+        2,
+        4,
+        5,
+        7,
+        9
+      ],
+      "inventoryQuantity": 2489
+    },
+    {
+      "id": 4,
+      "locationId": 4,
+      "productId": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "inventoryQuantity": 3673
+    },
+    {
+      "id": 5,
+      "locationId": 5,
+      "productId": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "inventoryQuantity": 4444444
+    }
+  ]
 }
